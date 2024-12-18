@@ -28,10 +28,6 @@ export default function Header({
       url: "/workshops",
     },
     {
-      label: "CPG",
-      url: "/cpg",
-    },
-    {
       label: "Tournament",
       url: "/tournament"
     }
