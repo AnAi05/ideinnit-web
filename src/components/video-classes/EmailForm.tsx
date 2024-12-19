@@ -55,7 +55,7 @@ export default function EmailForm({
                       {listName} mailing list.{wide && <br />} If you don't
                       think you're getting our emails, please{" "}
                       <a
-                        href={"mailto:usacoguide@gmail.com"}
+                        href={"mailto:lajatm9@gmail.com"}
                         className={
                           "text-red-600 hover:text-red-800 hover:underline"
                         }
@@ -73,7 +73,7 @@ export default function EmailForm({
                   An unknown error occurred. Please try again later{" "}
                   {wide && <br />} or{" "}
                   <a
-                    href={"mailto:usacoguide@gmail.com"}
+                    href={"mailto:lajatm9@gmail.com"}
                     className={
                       "text-red-600 hover:text-red-800 hover:underline"
                     }

@@ -1,7 +1,8 @@
 import {
   lajat,
   sujal,
-  omkar
+  omkar,
+  empty
 } from "./images"
 import { StaticImageData } from "next/legacy/image"
 type Socials =
@@ -145,27 +146,35 @@ const _members: { [key: string]: Member } = {
   lajat: {
     photo: lajat,
     name: "Lajat Manekar",
-    titles: [roles.founder, roles.webdev],
+    titles: [roles.founder, "Software Engineer"],
     github: "lazeeez",
-    codeforces: "Lazeeez",
     email: "lajatm9@gmail.com",
     website: "https://lajatis.live",
-    instagram: "https://www.instagram.com/lajat5/",
     linkedin: "https://www.linkedin.com/in/LajatManekar",
   },
   sujal: {
     photo: sujal,
     name: "Sujal Gera",
-    titles: [roles.founder, roles.webdev],
+    titles: [roles.founder, "Software Engineer"],
     email: "sujalgera01@gmail.com",
+    github: "sujalgera01",
+    linkedin: "https://www.linkedin.com/in/sujal-gera-355847177/",
     youtube: "https://youtube.com/@thedesiinnihon?si=eFYSbpvTxNeVMAfU",
   },
   omkar: {
     photo: omkar,
     name: "Omkar Jajulwar",
-    titles: [roles.founder, roles.webdev],
+    titles: [roles.founder, "Data Scientist"],
     github: "AnAi05",
+    linkedin: "https://www.linkedin.com/in/anai-5/",
     email: "omkarjajulwar@gmail.com",
+  },
+  georgia: {
+    photo: empty,
+    name: "Georgia Beleli",
+    titles: ["Frontend Developer"],
+    linkedin: "https://jp.linkedin.com/in/georgiabeleli",
+    email: "mpiskota8@gmail.com",
   },
 }
 
@@ -173,13 +182,14 @@ const board: Member[] = [
   _members.lajat,
   _members.sujal,
   _members.omkar,
+  _members.georgia,
 ]
 
 const currentMembers: Member[] = [
   // board
   _members.lajat,
   _members.sujal,
-
+  _members.georgia,
   _members.omkar,
 ]
 

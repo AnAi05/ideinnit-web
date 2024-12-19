@@ -44,17 +44,9 @@ export default function Team() {
             Meet our team
           </h2>
           <p className="text-xl text-gray-500">
-            Comprised of USACO Finalists and top USACO competitors, our team is
-            committed to increasing participation in competitive programming.
           </p>
         </div>
         <MemberGrid members={members.activePeople} />
-        <h3 className="text-2xl font-bold mt-[5rem] mb-7">Board</h3>
-        <MemberGrid members={members.board} />
-        <h3 className="text-2xl font-bold mt-[5rem] mb-7">
-          Former Team Members
-        </h3>
-        <MemberGrid members={members.formerMembers} />
       </div>
     </div>
   )

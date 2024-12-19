@@ -42,7 +42,7 @@ export default function ({
                 trusted sender). If you still don't see it, email us at{" "}
                 <a
                   className={"underline text-blue-700"}
-                  href={"mailto:classes@joincpi.org"}
+                  href={"mailto:lajatm9@gmail.com"}
                 >
                   classes@joincpi.org
                 </a>

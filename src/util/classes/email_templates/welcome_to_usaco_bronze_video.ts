@@ -106,7 +106,7 @@ export default `<!DOCTYPE html>
                           After joining the class, you can use this link to access the class (make sure you're signed in): <a href="https://usaco.guide/groups/d7eYGfddXq3m2trXG2xt" target="_blank">https://usaco.guide/groups/d7eYGfddXq3m2trXG2xt</a>
                         </p>
                         <p style="margin-top: 12px; margin-bottom: 12px; font-size: 16px; line-height: 24px; color: #51545E">
-                          Please note that the join link is only valid for one use. If you encounter issues joining the class, email us at <a href="mailto:classes@joincpi.org">classes@joincpi.org</a>.
+                          Please note that the join link is only valid for one use. If you encounter issues joining the class, email us at <a href="mailto:lajatm9@gmail.com">lajatm9@gmail.com</a>.
                         </p>
                         <p style="margin-top: 12px; margin-bottom: 12px; font-size: 16px; line-height: 24px; color: #51545E">
                           Sincerely,

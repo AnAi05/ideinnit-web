@@ -874,7 +874,7 @@ export default function Classes() {
 //               </a>
 //             </div>
 //             <div className="ml-3 inline-flex rounded-md shadow">
-//               <a href="mailto:usacoguide@gmail.com" target="_blank" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-600 bg-white hover:text-purple-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+//               <a href="mailto:lajatm9@gmail.com" target="_blank" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-600 bg-white hover:text-purple-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
 //                 Contact Us
 //               </a>
 //             </div>

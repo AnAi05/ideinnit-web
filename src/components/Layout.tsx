@@ -24,7 +24,7 @@ const Layout = ({
           <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between">
             <div className="flex justify-center md:order-2 space-x-6">
               <a
-                href="mailto:usacoguide@gmail.com"
+                href="mailto:lajatm9@gmail.com"
                 target="_blank"
                 className="text-gray-400 hover:text-gray-500"
               >

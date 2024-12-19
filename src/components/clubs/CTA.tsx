@@ -21,7 +21,7 @@ export default function CTA() {
           </div>
           <div className="ml-3 inline-flex">
             <a
-              href="mailto:usacoguide@gmail.com"
+              href="mailto:lajatm9@gmail.com"
               target="_blank"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline focus:border-purple-300 transition duration-150 ease-in-out"
             >

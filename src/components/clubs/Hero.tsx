@@ -39,7 +39,7 @@ export default function Hero() {
                 Join Now
               </a>
               <a
-                href="mailto:usacoguide@gmail.com"
+                href="mailto:lajatm9@gmail.com"
                 target="_blank"
                 className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
               >
@@ -75,7 +75,7 @@ export default function Hero() {
     //               </a>
     //             </div>
     //             <div className="mt-3 sm:mt-0 sm:ml-3">
-    //               <a href="mailto:usacoguide@gmail.com" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline-purple focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+    //               <a href="mailto:lajatm9@gmail.com" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline-purple focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
     //                 Contact Us
     //               </a>
     //             </div>

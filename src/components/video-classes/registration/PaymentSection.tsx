@@ -71,7 +71,7 @@ export default function PaymentSection({
                     <b>second</b> class for a partial refund of <b>$90</b> by
                     emailing{" "}
                     <a
-                      href={"mailto:classes@joincpi.org"}
+                      href={"mailto:lajatm9@gmail.com"}
                       className={"underline"}
                     >
                       classes@joincpi.org

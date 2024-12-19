@@ -33,7 +33,7 @@ export default function Hero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="mailto:ocmelodyyu@gmail.com"
+                    href="mailto:lajatm9@gmail.com"
                     target="_blank"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-cyan-700 bg-cyan-200 hover:text-cyan-600 hover:bg-cyan-100 focus:outline-none focus:shadow-outline-cyan focus:border-cyan-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >

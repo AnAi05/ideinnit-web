@@ -69,7 +69,7 @@ export default function PaymentSection({
                     cancel your class registration anytime before the{" "}
                     <b>second</b> class for a <b>full refund</b> by emailing{" "}
                     <a
-                      href={"mailto:classes@joincpi.org"}
+                      href={"mailto:lajatm9@gmail.com"}
                       className={"underline"}
                     >
                       classes@joincpi.org
