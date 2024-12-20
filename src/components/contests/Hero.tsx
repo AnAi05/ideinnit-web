@@ -17,13 +17,13 @@ export default function Hero() {
               <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
                 Beginner
                 <br />
-                <span className="text-purple-600">CP Contests</span>
+                <span className="text-gray-600">CP Contests</span>
               </h2>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
                 Get better at USACO by participating in monthly,
                 beginner-focused Competitive Programming Contests! Targeted to
                 both{" "}
-                <Link href="/clubs" className="underline text-purple-600">
+                <Link href="/clubs" className="underline text-gray-600">
                   school clubs
                 </Link>{" "}
                 and individual contestants.
@@ -32,7 +32,7 @@ export default function Hero() {
                 We're also looking for{" "}
                 <a
                   href="https://forms.gle/YfewgWkAisz9JiBC8"
-                  className="underline text-purple-600"
+                  className="underline text-gray-600"
                   target="_blank"
                 >
                   problem contributions

@@ -275,7 +275,7 @@ export function AddVolunteerHoursForm({ data, onClose }) {
 
       <button
         onClick={() => submitHours()}
-        className="inline-flex mt-10 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+        className="inline-flex mt-10 px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
       >
         {loading ? (
           // spinner
@@ -311,16 +311,16 @@ export default function ViewHours() {
             <div className="w-full mt-4 mb-10">
               <div className="grid w-full grid-rows-6 grid-cols-none md:grid-rows-2 md:grid-cols-1 md:grid-flow-col gap-3">
                 <div className="row-span-3 bg-white p-3 flex flex-col rounded-md shadow-lg text-5xl font-extrabold">
-                  <h1 className="m-auto text-purple-900 underline text-center">
+                  <h1 className="m-auto text-gray-900 underline text-center">
                     {session?.user?.name}
                   </h1>
-                  <h3 className="mx-auto mb-6 text-purple-800 text-sm">
+                  <h3 className="mx-auto mb-6 text-gray-800 text-sm">
                     Email: {session?.user?.email}
                   </h3>
                 </div>
                 <div className="flex bg-white flex-col px-3 py-5 col-span-2 row-span-2 rounded-lg shadow-lg">
                   {data ? (
-                    <p className="text-purple-800 font-semibold text-3xl m-auto">
+                    <p className="text-gray-800 font-semibold text-3xl m-auto">
                       <b>{Math.round(data?.totalHours * 100) / 100}</b> hours
                       volunteered
                     </p>
@@ -335,7 +335,7 @@ export default function ViewHours() {
                   type="button"
                   disabled={!data}
                   onClick={() => setViewAddHoursForm(true)}
-                  className="flex cursor-pointer px-3 shadow-lg rounded-lg row-span-1 col-span-1 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 disabled:saturate-50"
+                  className="flex cursor-pointer px-3 shadow-lg rounded-lg row-span-1 col-span-1 bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700 disabled:saturate-50"
                 >
                   <p className="text-white text-base font-medium m-auto">
                     Add Volunteer Hours
@@ -344,7 +344,7 @@ export default function ViewHours() {
                 <button
                   type="button"
                   onClick={() => signOut()}
-                  className="flex cursor-pointer p-3 shadow-lg rounded-lg row-span-1 col-span-1 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                  className="flex cursor-pointer p-3 shadow-lg rounded-lg row-span-1 col-span-1 bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
                 >
                   <p className="text-white text-base font-medium m-auto">
                     Sign out
@@ -357,13 +357,13 @@ export default function ViewHours() {
                 <div>
                   <button
                     onClick={() => setViewAddHoursForm(true)}
-                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                    className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
                   >
                     Add Volunteer Hours
                   </button>
                   <button
                     onClick={() => signOut()}
-                    className="inline-flex px-4 ml-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+                    className="inline-flex px-4 ml-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
                   >
                     Sign out
                   </button>

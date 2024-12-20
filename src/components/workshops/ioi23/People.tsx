@@ -30,6 +30,6 @@ import {
     }
   ]
   export default function People() {
-    return <Speakers speakers={speakers} titleColor="text-purple-600" />
+    return <Speakers speakers={speakers} titleColor="text-gray-600" />
   }
   

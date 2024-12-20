@@ -37,8 +37,8 @@ const themeColors = {
   yellow:
     "bg-yellow-600 hover:bg-yellow-500 focus:border-yellow-700 focus:shadow-outline-yellow",
   cyan: "bg-cyan-600 hover:bg-cyan-500 focus:border-cyan-700 focus:shadow-outline-cyan",
-  purple:
-    "bg-purple-600 hover:bg-purple-500 focus:border-purple-700 focus:shadow-outline-purple",
+  gray:
+    "bg-gray-600 hover:bg-gray-500 focus:border-gray-700 focus:shadow-outline-gray",
 }
 
 const workshops: Workshop[] = [
@@ -87,7 +87,7 @@ const workshops: Workshop[] = [
     date: dayjs("Nov 26, 2023 4:30:00 PM PST"),
     season: "2023-2024",
     url: "ioi23"    ,
-    themeColor: themeColors.purple,
+    themeColor: themeColors.gray,
   },
   {
     photo: Open23,
@@ -97,7 +97,7 @@ const workshops: Workshop[] = [
     date: dayjs("Apr 2, 2023 2:00:00 PM PDT"),
     season: "2022-2023",
     url: "open23",
-    themeColor: themeColors.purple
+    themeColor: themeColors.gray
   },
   {
     photo: Feb23,
@@ -138,7 +138,7 @@ const workshops: Workshop[] = [
     date: dayjs("Apr 10, 2022 10:00:00 AM PST"),
     season: "2021-2022",
     url: "open22",
-    themeColor: themeColors.purple,
+    themeColor: themeColors.gray,
   },
   {
     photo: XCampCPI,
@@ -148,7 +148,7 @@ const workshops: Workshop[] = [
     date: dayjs("Mar 6, 2022 10:00:00 AM PST"),
     season: "2021-2022",
     url: "feb22",
-    themeColor: themeColors.purple,
+    themeColor: themeColors.gray,
   },
   {
     photo: XCampCPI,
@@ -158,7 +158,7 @@ const workshops: Workshop[] = [
     date: dayjs("Feb 5, 2022 7:00:00 PM PST"),
     season: "2021-2022",
     url: "jan22",
-    themeColor: themeColors.purple,
+    themeColor: themeColors.gray,
   },
   {
     photo: EGOI,

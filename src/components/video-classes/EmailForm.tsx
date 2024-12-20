@@ -107,8 +107,8 @@ export default function EmailForm({
               disabled={submitting}
               className={
                 (submitting
-                  ? "bg-purple-300"
-                  : "bg-purple-500 hover:bg-purple-400 focus:outline-none focus:bg-purple-400") +
+                  ? "bg-red-300"
+                  : "bg-red-500 hover:bg-black-400 focus:outline-none focus:bg-black-400") +
                 " w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white transition duration-150 ease-in-out"
               }
             >

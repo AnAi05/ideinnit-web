@@ -5,10 +5,10 @@ import Head from "next/head"
 function SEO({ description, children, image: metaImage, title, pathname }) {
   const site = {
     siteMetadata: {
-      title: `Competitive Programming Initiative`,
-      description: `We promote competitive programming among students through resources, outreach, classes, and contests.`,
-      author: `@cpinitiative`,
-      siteUrl: "https://joincpi.org",
+      title: `IDE-innit`,
+      description: `We promote cross platform development and open source software.`,
+      author: `@lajat`,
+      siteUrl: "https://ideinnit.tech",
     },
   }
   const metaDescription = description || site.siteMetadata.description

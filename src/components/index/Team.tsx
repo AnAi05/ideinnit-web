@@ -7,7 +7,7 @@ function SmallMemberGrid({ members }: { members: Member[] }) {
   return (
     <ul
       role="list"
-      className="mx-auto grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))]"
+      className="grid gap-8 grid-cols-[repeat(auto-fill,minmax(300px,1fr))] text-center"
     >
       {members.map((member, i) => (
         <MemberCardSmall member={member} key={i} />
@@ -19,7 +19,7 @@ function LargeMemberGrid({ members }: { members: Member[] }) {
   return (
     <ul
       role="list"
-      className="grid gap-8 grid-cols-[repeat(auto-fill,minmax(300px,1fr))] text-left"
+      className="grid gap-8 grid-cols-[repeat(auto-fill,minmax(300px,1fr))] text-center"
     >
       {members.map((member, i) => (
         <MemberCardLarge member={member} key={i} />

@@ -10,37 +10,37 @@ export default function RegistrationProcess() {
         <div className="h-10" />
         <div className="space-y-8">
           <div>
-            <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-purple-800 mb-2">
+            <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-800 mb-2">
               1. Fill out the Application Form
             </h3>
             <p className="text-gray-600">
               The form can be found here:{" "}
               <a
-                href="https://forms.gle/ha9pQnHFNZZc6Y3W9"
+                href="https://forms.gle/xPY9KZoXUugHWSEv8"
                 target="_blank"
                 className="font-semibold text-black underline"
               >
-                https://forms.gle/ha9pQnHFNZZc6Y3W9
+                https://forms.gle/xPY9KZoXUugHWSEv8
               </a>
             </p>
           </div>
           <div>
-            <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-purple-800 mb-2">
+            <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-800 mb-2">
               2. Join our Discord Server
             </h3>
             <p className="text-gray-600">
               Most of our communication takes place on Discord. Join here:{" "}
               <a
-                href="https://discord.gg/VCxUzdYhzN"
+                href="https://discord.gg/panchayat-719504928703250533"
                 target="_blank"
                 className="font-semibold text-black underline"
               >
-                https://discord.gg/VCxUzdYhzN
+                https://discord.gg/panchayat-719504928703250533
               </a>
             </p>
           </div>
 {/*           <div>
-            <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-purple-800 mb-2">
+            <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-800 mb-2">
               3. Schedule an Interview
             </h3>
             <p className="text-gray-600">

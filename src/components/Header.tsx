@@ -3,7 +3,6 @@ import Link from "next/link"
 import { useState } from "react"
 import Logo from "./Logo"
 import { useRouter } from "next/router"
-import ClassesDropdown from "../components/ClassesDropdown"
 
 export default function Header({
   noBanner,
@@ -16,21 +15,13 @@ export default function Header({
   const router = useRouter()
   const internalLinks = [
     {
-      label: "Clubs",
+      label: "Contribute",
       url: "/clubs",
     },
     {
       label: "Contests",
       url: "/contests",
     },
-    {
-      label: "Workshops",
-      url: "/workshops",
-    },
-    {
-      label: "Tournament",
-      url: "/tournament"
-    }
   ]
 
   const linkClasses =
@@ -42,7 +33,7 @@ export default function Header({
     "inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium leading-5 focus:outline-none transition duration-150 ease-in-out " +
     (dark
       ? "border-transparent text-gray-100 focus:border-gray-600"
-      : "border-purple-500 text-gray-900 focus:border-purple-700")
+      : "border-gray-500 text-gray-900 focus:border-gray-700")
 
   const blockLinkClasses =
     "block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium focus:outline-none transition duration-150 ease-in-out " +
@@ -52,8 +43,8 @@ export default function Header({
   const activeBlockLinkClasses =
     "block pl-3 pr-4 py-2 border-l-4 text-base font-medium focus:outline-none transition duration-150 ease-in-out " +
     (!dark
-      ? "border-purple-500 text-purple-700 bg-purple-50 focus:text-purple-800 focus:bg-purple-100 focus:border-purple-700"
-      : "border-purple-500 text-purple-100 bg-purple-800 focus:text-purple-50 focus:bg-purple-500 focus:border-purple-700")
+      ? "border-gray-500 text-gray-700 bg-gray-50 focus:text-gray-800 focus:bg-gray-100 focus:border-gray-700"
+      : "border-gray-500 text-gray-100 bg-gray-800 focus:text-gray-50 focus:bg-gray-500 focus:border-gray-700")
 
   function classNames(...classes: any[]) {
     return classes.filter(Boolean).join(" ")
@@ -67,19 +58,20 @@ export default function Header({
     >
       {!noBanner &&
        <div className="relative bg-indigo-700">
-          <div className="max-w-screen-xl mx-auto py-3 px-3 sm:px-6 lg:px-8"> 
+          <div className="max-w
+          -screen-xl mx-auto py-3 px-3 sm:px-6 lg:px-8"> 
             <div className="pr-16 sm:text-center sm:px-16">
              <p className="font-medium text-white">
                {/* <span className="md:hidden">Join our IOI Livesolve & Q&A workshop <Link className="text-white font-bold underline" href="https://joincpi.org/workshops/ioi23">here</Link>!</span> */}
                <span className="hidden md:inline">
-                Join our livesolve workshop for the December 2023 USACO Contest! 
+                Feel free to mail us or raise issues on our Github! 
                </span>
                <span className="block sm:ml-2 sm:inline-block">
                  <Link
-                   href={"/workshops/dec23"}
+                   href={"https://github.com/AnAi05/ideinnit-web/issues/new"}
                    className="text-white font-bold underline"
                  >
-                   Register here &rarr;
+                   Raise issue here &rarr;
                  </Link>
                </span>
             
@@ -109,17 +101,17 @@ export default function Header({
               <span
                 className={`font-bold text-xl ${dark ? "text-white" : ""}`}
               >
-                CP Initiative
+                IDE innit
               </span>
 
             </Link>
             <div className="hidden md:ml-8 md:flex space-x-8">
               <a
-                href="https://usaco.guide/"
+                href="https://ideinnit.tech/"
                 target="_blank"
                 className={linkClasses}
               >
-                USACO Guide
+                IDE
                 {/*<svg className="w-5 h-6 inline-block text-gray-400 ml-2" fill="none" stroke="currentColor"*/}
                 {/*     style={{*/}
                 {/*       paddingBottom:"0.125rem"*/}
@@ -129,8 +121,6 @@ export default function Header({
                 {/*        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>*/}
                 {/*</svg>*/}
               </a>
-
-              <ClassesDropdown dark={dark} />
 
               {internalLinks.map(link => (
                 (<Link
@@ -200,45 +190,19 @@ export default function Header({
       <div className={(isOpen ? "block" : "hidden") + " md:hidden"}>
         <div className="pt-2 pb-3 space-y-1">
           <a
-            href="https://usaco.guide/"
+            href="https://ideinnit.tech/"
             target="_blank"
             className={blockLinkClasses}
           >
-            USACO Guide
+            IDE innit
           </a>
-
-          <Link
-            href="/classes"
-            className={
-              "/classes" === router.pathname
-                ? activeBlockLinkClasses
-                : blockLinkClasses
-            }>
-            
-              Live Classes
-            
-          </Link>
-
-          <Link
-            href="/video-classes"
-            className={
-              "/video-classes" === router.pathname
-                ? activeBlockLinkClasses
-                : blockLinkClasses
-            }>
-            
-              Self-Study Classes
-            
-          </Link>
 
           {internalLinks.map(link => (
             (<Link
               href={link.url}
               key={link.url}
               className={
-                link.url === router.pathname
-                  ? activeBlockLinkClasses
-                  : blockLinkClasses
+                link.url
               }>
 
               {link.label}

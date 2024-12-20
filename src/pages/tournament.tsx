@@ -115,7 +115,7 @@ export default function Tournament() {
           <div className="flex-1  bg-gray-900 relative pb-24 md:pb-40 lg:pb-48 xl:pb-72 2xl:pb-96 flex flex-col lg:flex-row items-center justify-evenly animate mt-16 text-gray-300">
             <div className="flex flex-col lg:mb-16 mt-6 lg:mt-12">
               <h1 className="text-4xl text-white md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-tight font-bold mx-auto pt-12 text-center">
-                <span className=" from-purple-700 to-blue-300 bg-gradient-to-b text-transparent bg-clip-text">
+                <span className=" from-gray-700 to-blue-300 bg-gradient-to-b text-transparent bg-clip-text">
                   USACO.Guide
                 </span>
                 <br /> Informatics Tournament
@@ -177,7 +177,7 @@ export default function Tournament() {
               alt="Mascot!"
             />
             {/* <section className="flex flex-col md:flex-row gap-x-4">
-                        <Link className="inline-flex sm:text-lg py-3 px-6 sm:py-4 mt-6 sm:px-8 rounded-md shadow bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium hover:from-blue-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900" href={CONTEST_REGISTRATION_FORM_LINK}>
+                        <Link className="inline-flex sm:text-lg py-3 px-6 sm:py-4 mt-6 sm:px-8 rounded-md shadow bg-gradient-to-r from-blue-500 to-gray-600 text-white font-medium hover:from-blue-600 hover:to-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900" href={CONTEST_REGISTRATION_FORM_LINK}>
                             Register Now &rarr;
                         </Link>
                         <Link className="inline-flex sm:text-lg py-3 px-6 sm:py-4 mt-6 sm:px-8 rounded-md shadow bg-gradient-to-r from-blue-700 to-blue-900 text-white font-medium hover:from-blue-800 hover:to-blue-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900" href={"https://discord.gg/SutDSVX6Zt"}>
@@ -228,7 +228,7 @@ export default function Tournament() {
           </div>
         </section>
         <div className="w-full h-0.5 bg-gray-400/20 mb-12" />
-        <h1 className="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-br from-purple-400 to-blue-600 bg-clip-text text-transparent">
+        <h1 className="text-center text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-br from-gray-400 to-blue-600 bg-clip-text text-transparent">
           Prizes
         </h1>
 
@@ -254,7 +254,7 @@ export default function Tournament() {
           </div>
         </section>
         <section className="flex items-center container mx-auto text-justify px-6 bg-white flex-col">
-          <h2 className="text-5xl md:text-6xl lg:text-7xl pb-6 mt-12 tracking-tight font-extrabold bg-gradient-to-tr from-blue-400 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl pb-6 mt-12 tracking-tight font-extrabold bg-gradient-to-tr from-blue-400 to-gray-600 bg-clip-text text-transparent">
             Contest Format
           </h2>
           <div className="mx-8 w-full">
@@ -402,7 +402,7 @@ export default function Tournament() {
             </div>
           </div>
         </section>
-        <h1 className="text-center mt-16 text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-br from-purple-400 to-blue-600 bg-clip-text text-transparent">
+        <h1 className="text-center mt-16 text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-br from-gray-400 to-blue-600 bg-clip-text text-transparent">
           Questions?
         </h1>
         <h2 className="text-xl lg:text-3xl text-center font-medium py-6 tracking-tight">

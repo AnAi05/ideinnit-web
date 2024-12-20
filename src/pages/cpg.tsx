@@ -27,7 +27,7 @@ export default function CPG() {
             <h1 className="font-black text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-white">
               Competitive Programming
               <br />
-              <span className="text-purple-300">for Girls.</span>
+              <span className="text-gray-300">for Girls.</span>
             </h1>
 
             <p className="text-gray-300 sm:text-lg lg:text-xl mt-3 lg:mt-6 max-w-prose">

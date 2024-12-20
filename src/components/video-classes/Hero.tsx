@@ -14,7 +14,7 @@ export default function Hero() {
                 Fully Online!
               </div>
               <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-                USACO <span className="text-purple-600">Classes</span>
+                USACO <span className="text-gray-600">Classes</span>
               </h2>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
                 Learn USACO through affordable, high-quality classes with
@@ -31,7 +31,7 @@ export default function Hero() {
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSc0IgtbVoYsWv_2E2ZIcN8UE29OVpmx6FsiM0x9lfwNdGey3Q/viewform"
                     target="_blank"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:border-purple-700 focus:shadow-outline-purple transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 focus:outline-none focus:border-gray-700 focus:shadow-outline-gray transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Join Mailing List
                   </a>
@@ -40,7 +40,7 @@ export default function Hero() {
                   <a
                     href="mailto:lajatm9@gmail.com"
                     target="_blank"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline-purple focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-700 bg-gray-100 hover:text-gray-600 hover:bg-gray-50 focus:outline-none focus:shadow-outline-gray focus:border-gray-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                   >
                     Contact Us
                   </a>
@@ -77,19 +77,19 @@ export default function Hero() {
     //           <h2 className="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
     //             Free Online
     //             <br />
-    //             <span className="text-purple-600">USACO Classes</span>
+    //             <span className="text-gray-600">USACO Classes</span>
     //           </h2>
     //           <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
     //             Learn USACO through high-quality classes with vetted, experienced instructors and a curriculum designed and developed by past USACO Finalists.
     //           </p>
     //           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
     //             <div className="rounded-md shadow">
-    //               <a href="https://forms.gle/ZnxAefowRcXoaCgx7" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:border-purple-700 focus:shadow-outline-purple transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+    //               <a href="https://forms.gle/ZnxAefowRcXoaCgx7" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 focus:outline-none focus:border-gray-700 focus:shadow-outline-gray transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
     //                 Apply Now
     //               </a>
     //             </div>
     //             <div className="mt-3 sm:mt-0 sm:ml-3">
-    //               <a href="mailto:lajatm9@gmail.com" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline-purple focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+    //               <a href="mailto:lajatm9@gmail.com" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-700 bg-gray-100 hover:text-gray-600 hover:bg-gray-50 focus:outline-none focus:shadow-outline-gray focus:border-gray-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
     //                 Contact Us
     //               </a>
     //             </div>
@@ -113,7 +113,7 @@ export default function Hero() {
     //             >
     //               <img className="w-full" src="https://img.youtube.com/vi/ueNT-w7Oluw/maxresdefault.jpg" alt="What is Competitive Programming?" />
     //               <div className="absolute inset-0 w-full h-full flex items-center justify-center">
-    //                 <svg className="h-20 w-20 text-purple-500" fill="currentColor" viewBox="0 0 84 84">
+    //                 <svg className="h-20 w-20 text-gray-500" fill="currentColor" viewBox="0 0 84 84">
     //                   <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
     //                   <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
     //                 </svg>

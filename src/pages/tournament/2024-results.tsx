@@ -82,7 +82,7 @@ export default function Results() {
         <div className="flex-1  bg-gray-900 relative pb-4 md:pb-6 lg:pb-8 xl:pb-10 2xl:pb-12 flex flex-col lg:flex-row items-center justify-evenly animate mt-16 text-gray-300">
           <div className="flex flex-col lg:mb-16 mt-6 lg:mt-12">
             <h1 className="text-4xl text-white md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-tight font-bold mx-auto pt-12 text-center">
-              <span className=" from-purple-700 to-blue-300 bg-gradient-to-b text-transparent bg-clip-text">
+              <span className=" from-gray-700 to-blue-300 bg-gradient-to-b text-transparent bg-clip-text">
                 USACO.Guide
               </span>
               <br /> Informatics Tournament
@@ -136,7 +136,7 @@ export default function Results() {
 			</div>
 			<div className="text-lg">
 			  4th place: Eric Hsu (wavelets),
-			  5th place: Rohin Garg (PurpleCrayon),
+			  5th place: Rohin Garg (grayCrayon),
 			  6th place: Hoàng Xuân Bách (bachbeo2007),
 			  7th place: Alex Liang (sum),
 			  8th place: Samuel Mo (IanISam)
@@ -170,7 +170,7 @@ export default function Results() {
 		  </div>
         </section>
         <div className="w-full h-0.5 bg-gray-400/20 mb-12" />
-        <h1 className="text-center mt-16 text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-br from-purple-400 to-blue-600 bg-clip-text text-transparent">
+        <h1 className="text-center mt-16 text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight bg-gradient-to-br from-gray-400 to-blue-600 bg-clip-text text-transparent">
           Questions?
         </h1>
         <h2 className="text-xl lg:text-3xl text-center font-medium py-6 tracking-tight">

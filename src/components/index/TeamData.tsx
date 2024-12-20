@@ -169,27 +169,18 @@ const _members: { [key: string]: Member } = {
     linkedin: "https://www.linkedin.com/in/anai-5/",
     email: "omkarjajulwar@gmail.com",
   },
-  georgia: {
-    photo: empty,
-    name: "Georgia Beleli",
-    titles: ["Frontend Developer"],
-    linkedin: "https://jp.linkedin.com/in/georgiabeleli",
-    email: "mpiskota8@gmail.com",
-  },
 }
 
 const board: Member[] = [
   _members.lajat,
   _members.sujal,
   _members.omkar,
-  _members.georgia,
 ]
 
 const currentMembers: Member[] = [
   // board
   _members.lajat,
   _members.sujal,
-  _members.georgia,
   _members.omkar,
 ]
 

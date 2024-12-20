@@ -19,16 +19,15 @@ export default function Hero() {
           <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             <span className="block text-indigo-100">Supercharge Your</span>
             <span className="block text-white">
-              Competitive Programming Club
+              Open Source Experience
             </span>
           </h1>
           <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
             Get access to{" "}
             <span className="font-medium text-white">
-              curriculum, problemsets, and contests
+              real-life problems, unique frameworks and experienced mentors
             </span>{" "}
-            tailored for competitive programming or computer science clubs,
-            created by past USACO Finalists.
+            tailored for problem-solvers and computer science enthusiasts
           </p>
           <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
@@ -60,7 +59,7 @@ export default function Hero() {
     //       <main className="pt-10 mx-auto max-w-screen-xl px-4 sm:pt-12 sm:px-6 md:pt-16 lg:pt-18 lg:px-8 xl:pt-24">
     //         <div className="sm:text-center lg:text-left">
     //           <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
-    //             Competitive Programming<br/><span className="text-purple-600">Clubs</span>
+    //             Competitive Programming<br/><span className="text-gray-600">Clubs</span>
     //           </h2>
     //           <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl lg:mx-0">
     //             Get access to curriculum, problemsets, and contests tailored for school clubs, created by past USACO Finalists.
@@ -70,12 +69,12 @@ export default function Hero() {
     //           </p>
     //           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
     //             <div className="rounded-md shadow">
-    //               <a href="#how-to-join" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:border-purple-700 focus:shadow-outline-purple transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+    //               <a href="#how-to-join" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 focus:outline-none focus:border-gray-700 focus:shadow-outline-gray transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
     //                 Join Now
     //               </a>
     //             </div>
     //             <div className="mt-3 sm:mt-0 sm:ml-3">
-    //               <a href="mailto:lajatm9@gmail.com" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline-purple focus:border-purple-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+    //               <a href="mailto:lajatm9@gmail.com" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-700 bg-gray-100 hover:text-gray-600 hover:bg-gray-50 focus:outline-none focus:shadow-outline-gray focus:border-gray-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
     //                 Contact Us
     //               </a>
     //             </div>

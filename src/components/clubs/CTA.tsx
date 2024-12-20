@@ -7,14 +7,14 @@ export default function CTA() {
         <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
           Ready to dive in?
           <br />
-          Register your club today!
+          Join the team today!
         </h2>
         <div className="mt-8 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <a
-              href="https://forms.gle/UmXM6ge1nDjLrxRGA"
+              href="https://forms.gle/36uwAJyANk7sx8yt9"
               target="_blank"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-purple-600 hover:bg-purple-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-600 hover:bg-gray-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
             >
               Apply Now
             </a>
@@ -23,7 +23,7 @@ export default function CTA() {
             <a
               href="mailto:lajatm9@gmail.com"
               target="_blank"
-              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-purple-700 bg-purple-100 hover:text-purple-600 hover:bg-purple-50 focus:outline-none focus:shadow-outline focus:border-purple-300 transition duration-150 ease-in-out"
+              className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-700 bg-gray-100 hover:text-gray-600 hover:bg-gray-50 focus:outline-none focus:shadow-outline focus:border-gray-300 transition duration-150 ease-in-out"
             >
               Contact Us
             </a>

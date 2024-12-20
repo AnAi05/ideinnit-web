@@ -18,18 +18,17 @@ function IndexPage(source: InferGetStaticPropsType<typeof getStaticProps>) {
     <SEO title={null} />
     <div className="bg-gray-100">
       <Header noBanner/>
-      <div className="bg-purple-900 sm:-mb-8">
+      <div className="bg-gray-900 sm:-mb-8">
         {/*Banner Padding*/}
         {/*<div className="h-12" />*/}
 
         <div className="h-36 sm:h-48" />
         <div className="max-w-screen-xl px-4 sm:px-6 mx-auto sm:-mb-8">
           <h1 className="text-4xl tracking-tight leading-10 sm:leading-none font-extrabold text-white sm:text-6xl lg:text-5xl xl:text-6xl">
-            Competitive Programming Initiative
+            IDE Initiative
           </h1>
-          <p className="mt-6 mb-6 text-purple-200 text-xl">
-            We promote competitive programming among students through resources,
-            classes, outreach, and contests.
+          <p className="mt-6 mb-6 text-gray-200 text-xl">
+            We promote cross platform development and open source discipline.
           </p>
         </div>
         <svg
@@ -47,44 +46,9 @@ function IndexPage(source: InferGetStaticPropsType<typeof getStaticProps>) {
         </svg>
       </div>
       <div className="max-w-screen-xl px-4 sm:px-6 mx-auto pb-12 sm:pb-16 flex flex-col md:flex-row">
-        <div className="flex-[1_0_0px] items-stretch">
-          <h1 className="text-2xl tracking-tight leading-10 sm:leading-none font-extrabold text-gray-900 sm:text-3xl lg:text-4xl xl:text-5xl mb-6 sm:mb-12">
-            Our Initiatives
-          </h1>
-          <div className="grid grid-cols-1 gap-8 h-min grow-0" id="cards">
-            <Card
-              title="USACO Guide"
-              borderColor="border-blue-600"
-              url="https://usaco.guide/"
-              external
-            >
-              The USACO Guide is a free collection of curated, high-quality
-              resources to take you from Bronze to Platinum and beyond.
-            </Card>
-            <Card title="Classes" borderColor="border-orange-600" url="/classes">
-              Learn USACO through high-quality classes with vetted, experienced
-              instructors and a curated curriculum.
-            </Card>
-            <Card title="Clubs" borderColor="border-green-600" url="/clubs">
-              Running a CP/CS club? Get access to curriculum, problemsets, and
-              contests tailored for school clubs!
-            </Card>
-            <Card
-              title="Contests"
-              borderColor="border-purple-600"
-              url="/contests"
-            >
-              A selection of programming contests targeted towards pre-college
-              students.
-            </Card>
-            <Card title="Workshops" borderColor="border-cyan-600" url="/workshop">
-              Join free online webinars with useful information from panels,
-              interviews, and events about competitive programming!
-            </Card>
-          </div>
-        </div>
+        
         <div className="flex-[1_0_0px] pt-8 md:pt-0 flex flex-col">
-          <h1 className="pr-0 md:pr-8 text-2xl text-right tracking-tight leading-10 sm:leading-none font-extrabold text-gray-900 sm:text-3xl lg:text-4xl xl:text-5xl mb-6 sm:mb-12">
+          <h1 className="pr-0 md:pr-8 text-2xl text-left tracking-tight leading-10 sm:leading-none font-extrabold text-gray-900 sm:text-3xl lg:text-4xl xl:text-5xl mb-6 sm:mb-12">
             Announcements
           </h1>
           <Announcements announcements={source.list} />

@@ -85,7 +85,7 @@ export default function Divisions() {
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
                         Follows our{" "}
-                        <Link href="/clubs" className="text-purple-600 underline">
+                        <Link href="/clubs" className="text-gray-600 underline">
                           
                             Club Curriculum
                           

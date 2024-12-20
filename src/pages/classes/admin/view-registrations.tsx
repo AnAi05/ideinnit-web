@@ -154,7 +154,7 @@ export default function ViewRegistrationPage() {
                     <div className="px-4 py-4 sm:px-6">
                       <div className="flex items-center justify-between">
                         <div className="flex flex-col sm:flex-row sm:gap-2 items-start sm:items-center text-gray-500">
-                          <p className="text-sm font-medium text-purple-600 truncate">
+                          <p className="text-sm font-medium text-gray-600 truncate">
                             {reg.data.personalInfo.firstName}{" "}
                             {reg.data.personalInfo.lastName}
                           </p>
@@ -437,7 +437,7 @@ export default function ViewRegistrationPage() {
                         }}
                         type="button"
                         disabled={detailModalFASubmittingApproval}
-                        className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-purple-600 text-base font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:ml-3 sm:w-auto sm:text-sm"
+                        className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-gray-600 text-base font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm"
                       >
                         {detailModalFASubmittingApproval
                           ? "Granting Full Financial Aid..."
@@ -529,7 +529,7 @@ export default function ViewRegistrationPage() {
                       history.pushState(null, null, " ")
                       setShowDetailModal(false)
                     }}
-                    className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:mt-0 sm:w-auto sm:text-sm"
+                    className="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:w-auto sm:text-sm"
                   >
                     Close
                   </button>

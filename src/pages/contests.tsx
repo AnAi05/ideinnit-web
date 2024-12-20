@@ -1,13 +1,13 @@
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Header from "../components/Header"
-import EmailForm from "../components/video-classes/EmailForm"
 import ContestList from "../components/contests/ContestList"
 import Image from "next/legacy/image"
 import {
   proco1,
   proco2,
 } from "../components/contests/images"
+import EmailForm from "../components/video-classes/EmailForm"
 
 export default function Contests() {
   return (
@@ -33,12 +33,11 @@ export default function Contests() {
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 className="text-center text-4xl text-white font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               Programming Contests <br />
-              <span className="text-purple-300">for High Schoolers.</span>
+              <span className="text-gray-300">for Everyone.</span>
             </h1>
             <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-              Join high-quality programming contests hosted by students, for
-              students. These contests are partnered and part of the CPI
-              Competition Program.
+              Join high-quality programming contests hosted by CS enthusiasts, for
+              CS enthusiasts. The questions in these contests are hand-picked by our mentors.
             </p>
 
             <div className="items-center text-center max-w-md mt-12 mt-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -52,31 +51,28 @@ export default function Contests() {
 
       <div className="relative px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="text-lg max-w-prose mx-auto mb-6">
-          <p className="text-base text-center leading-6 text-purple-600 font-semibold tracking-wide uppercase">
+          <p className="text-base text-center leading-6 text-gray-600 font-semibold tracking-wide uppercase">
             About Us.
           </p>
           <h1 className="mt-2 mb-8 text-4xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            High-quality contests hosted with CPI.
+            High-quality contests hosted with IDEinnit.
           </h1>
         </div>
         <div className="prose prose-lg text-gray-500 mx-auto mb-6">
           <p className="text-1xl text-center">
             Organizing a new contest isn't easy, and neither is keeping a
-            contest running for many years. Get access to resources, manpower,
-            and support to host your high school programming contest.
+            contest running.
           </p>
         </div>
-        <div>
-          <h2 className="pt-1 mt-4 mb-8 text-4xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Partnered Tournaments
-          </h2>
-          <ContestList />
-        </div>
-
+        &nbsp;
+        <p className="text-base text-center leading-6 text-gray-600 font-semibold tracking-wide uppercase">
+            That's why, We're Introducing 
+          </p>
+        &nbsp;
 
         <div className="text-lg max-w-prose mx-auto mb-6 pt-16">
           <h1 className="mt-2 mb-8 text-4xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Unique Contest Hosting Platform
+            A Unique Contest Hosting Platform
           </h1>
         </div>
 
@@ -146,7 +142,7 @@ export default function Contests() {
             <a
               href="https://proco.vercel.app/"
               target="_blank"
-              className="flex items-center justify-center px-4 py-3 m-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white sm:px-8 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700"
+              className="flex items-center justify-center px-4 py-3 m-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white sm:px-8 bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
             >
               Join Today!
             </a>
@@ -161,43 +157,28 @@ export default function Contests() {
             <div className="h-10" />
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-purple-600 mb-2">
-                  1. Read the overview
-                </h3>
-                <p className="text-gray-600">
-                  The overview can be found here:{" "}
-                  <a
-                    href="https://joincpi.org/competition_program_brief.pdf"
-                    target="_blank"
-                    className="font-semibold text-black underline"
-                  >
-                    https://joincpi.org/competition_program_brief.pdf
-                  </a>
-                </p>
-              </div>
-              <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-purple-600 mb-2">
-                  2. Join our Discord Server
+                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-600 mb-2">
+                  1. Join our Discord Server
                 </h3>
                 <p className="text-gray-600">
                   Most of our communication takes place on Discord. Join here:{" "}
                   <a
-                    href="https://discord.gg/VCxUzdYhzN"
+                    href="https://discord.gg/panchayat-719504928703250533"
                     target="_blank"
                     className="font-semibold text-black underline"
                   >
-                    https://discord.gg/VCxUzdYhzN
+                    https://discord.gg/panchayat-719504928703250533
                   </a>
                 </p>
               </div>
               <div>
-                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-purple-600 mb-2">
-                  3. Contact Us!
+                <h3 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-600 mb-2">
+                  2. Contact Us!
                 </h3>
                 <p className="text-gray-600">
                   Email{" "}
                   <a href="mailto:lajatm9@gmail.com" className="underline">
-                    aakashgokhale@joincpi.org
+                    lajatm9@gmail.com
                   </a>{" "}
                   with information about your contest to apply.
                 </p>
