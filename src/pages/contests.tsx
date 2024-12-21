@@ -55,7 +55,7 @@ export default function Contests() {
             About Us.
           </p>
           <h1 className="mt-2 mb-8 text-4xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            High-quality contests hosted with IDEinnit.
+            High-quality contests hosted with IDE innit.
           </h1>
         </div>
         <div className="prose prose-lg text-gray-500 mx-auto mb-6">
