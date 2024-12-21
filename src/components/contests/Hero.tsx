@@ -2,7 +2,7 @@ import * as React from "react"
 // @ts-ignore
 import HeroImg from "../../images/ContestsHero"
 import Link from "next/link"
-import EmailForm from "../video-classes/EmailForm"
+import EmailForm from "../EmailForm"
 
 export default function Hero() {
   return (
@@ -23,7 +23,7 @@ export default function Hero() {
                 Get better at USACO by participating in monthly,
                 beginner-focused Competitive Programming Contests! Targeted to
                 both{" "}
-                <Link href="/clubs" className="underline text-gray-600">
+                <Link href="/contribute" className="underline text-gray-600">
                   school clubs
                 </Link>{" "}
                 and individual contestants.

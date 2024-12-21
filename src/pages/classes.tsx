@@ -1,12 +1,9 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
-import Hero from "../components/video-classes/Hero"
 import Header from "../components/Header"
-import NotLowQuality from "../components/video-classes/NotLowQuality"
 import ClassLevels from "../components/classes/ClassLevels"
-import ClassInstructors from "../components/video-classes/ClassInstructors"
-import EmailForm from "../components/video-classes/EmailForm"
+import EmailForm from "../components/EmailForm"
 import Newsletter from "../components/index/Newsletter"
 import Link from "next/link"
 

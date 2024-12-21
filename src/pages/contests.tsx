@@ -7,7 +7,7 @@ import {
   proco1,
   proco2,
 } from "../components/contests/images"
-import EmailForm from "../components/video-classes/EmailForm"
+import EmailForm from "../components/EmailForm"
 
 export default function Contests() {
   return (

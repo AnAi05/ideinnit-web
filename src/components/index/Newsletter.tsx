@@ -1,4 +1,4 @@
-import EmailForm from "../video-classes/EmailForm"
+import EmailForm from "../EmailForm"
 
 export default function Newsletter() {
   return (

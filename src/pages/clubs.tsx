@@ -1,15 +1,15 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
-import Hero from "../components/clubs/Hero"
-import WhyJoin from "../components/clubs/WhyJoin"
-import CTA from "../components/clubs/CTA"
+import Hero from "../components/contribute/Hero"
+import WhyJoin from "../components/contribute/WhyJoin"
+import CTA from "../components/contribute/CTA"
 import Header from "../components/Header"
-import FAQ from "../components/clubs/FAQ"
-import RegistrationProcess from "../components/clubs/RegistrationProcess"
-import CurrentClubs from "../components/clubs/CurrentClubs"
+import FAQ from "../components/contribute/FAQ"
+import RegistrationProcess from "../components/contribute/RegistrationProcess"
+import contribute from "../components/contribute/CurrentClubs"
 
-export default function Clubs() {
+export default function Contribute() {
   return (
     <Layout>
       <SEO
@@ -27,7 +27,6 @@ export default function Clubs() {
       {/*<FAQ />*/}
       <CTA />
       <div className="h-8" />
-      <CurrentClubs />
     </Layout>
   )
 }

@@ -4,7 +4,7 @@ import SEO from "../components/SEO"
 import Hero from "../components/contests/Hero"
 import Header from "../components/Header"
 import Divisions from "../components/contests/Divisions"
-import EmailForm from "../components/video-classes/EmailForm"
+import EmailForm from "../components/EmailForm"
 import ContestList from "../components/contests/ContestList"
 import Link from "next/link"
 

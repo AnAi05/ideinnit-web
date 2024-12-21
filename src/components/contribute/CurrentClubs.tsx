@@ -1,6 +1,6 @@
 import * as React from "react"
 import Image, { StaticImageData } from "next/legacy/image"
-import * as img from "../clubs/images"
+import * as img from "../contribute/images"
 
 const ClubCard = ({
   name,
