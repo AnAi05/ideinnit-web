@@ -15,13 +15,18 @@ export default function Header({
   const router = useRouter()
   const internalLinks = [
     {
+      label: "Home",
+      url: "/",
+    },
+    {
       label: "Contribute",
-      url: "/clubs",
+      url: "/contribute",
     },
     {
       label: "Contests",
       url: "/contests",
     },
+    
   ]
 
   const linkClasses =
