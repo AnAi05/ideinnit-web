@@ -70,10 +70,11 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "dev": "next",
     "build": "next build",
-    "dev": "next dev",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "next start",
+    "prod": "next export",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {

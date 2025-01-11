@@ -28,7 +28,7 @@ function IndexPage(source: InferGetStaticPropsType<typeof getStaticProps>) {
             IDE Initiative
           </h1>
           <p className="mt-6 mb-6 text-gray-200 text-xl">
-            We promote cross platform development and open source discipline.
+            We promote cross platform collaborative development and open source discipline.
           </p>
         </div>
         <svg

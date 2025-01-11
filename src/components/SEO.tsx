@@ -6,7 +6,7 @@ function SEO({ description, children, image: metaImage, title, pathname }) {
   const site = {
     siteMetadata: {
       title: `IDE innit`,
-      description: `We promote cross platform development and open source software.`,
+      description: `We promote cross platform collaborative development and open source software.`,
       author: `@lajat`,
       siteUrl: "https://ideinnit.tech",
     },

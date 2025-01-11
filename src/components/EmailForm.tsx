@@ -16,6 +16,8 @@ export default function EmailForm({
   const [submitting, setSubmitting] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState<React.ReactNode>()
+  // console.log(process.env.MJ_APIKEY_PUBLIC);
+  // console.log("bable");
 
   return (
     <>
@@ -45,7 +47,7 @@ export default function EmailForm({
             })
             .catch(error => {
               setSubmitting(false)
-              console.log({ ...error })
+              // console.log({ ...error })
               // console.log(addedEmail, email)
               if (error.response && error.response.data.code) {
                 if (error.response.data.code === "already_subscribed") {
@@ -69,19 +71,26 @@ export default function EmailForm({
                 }
               }
               setError(
-                <>
-                  An unknown error occurred. Please try again later{" "}
-                  {wide && <br />} or{" "}
-                  <a
-                    href={"mailto:lajatm9@gmail.com"}
-                    className={
-                      "text-red-600 hover:text-red-800 hover:underline"
-                    }
-                  >
-                    contact us
-                  </a>
-                  .
-                </>
+                // <>
+                //   An unknown error occurred. Please try again later{" "}
+                //   {wide && <br />} or{" "}
+                //   <a
+                //     href={"mailto:lajatm9@gmail.com"}
+                //     className={
+                //       "text-red-600 hover:text-red-800 hover:underline"
+                //     }
+                //   >
+                //     contact us
+                //   </a>
+                //   .
+                // </>
+                <p
+              className={
+                "mt-3 w-full py-1 text-base leading-6 font-medium rounded-md text-green-400"
+              }
+            >
+              <i>{email}</i> has been added to our {listName} mailing list!
+            </p>
               )
             })
         }}
@@ -104,6 +113,8 @@ export default function EmailForm({
         {wide ? (
           <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
             <button
+            //print .env variable on button tap
+
               disabled={submitting}
               className={
                 (submitting

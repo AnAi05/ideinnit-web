@@ -112,7 +112,7 @@ export default function Header({
             </Link>
             <div className="hidden md:ml-8 md:flex space-x-8">
               <a
-                href="https://ideinnit.tech/"
+                href="https://ideinnit-ide.vercel.app"
                 target="_blank"
                 className={linkClasses}
               >

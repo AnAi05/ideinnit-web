@@ -38,6 +38,10 @@ const nextConfig = {
     //
     ignoreBuildErrors: true,
   },
+  env: {
+    MJ_APIKEY_PUBLIC:process.env.MJ_APIKEY_PUBLIC,
+    MJ_APIKEY_PRIVATE:process.env.MJ_APIKEY_PRIVATE
+  }
 }
  
 module.exports = withMDX(nextConfig)
