@@ -35,7 +35,7 @@ export default function RegistrationProcess() {
                 target="_blank"
                 className="font-semibold text-black underline"
               >
-                https://discord.gg/panchayat-719504928703250533
+                https://discord.gg/ideinnit
               </a>
             </p>
           </div>

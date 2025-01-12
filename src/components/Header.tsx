@@ -1,8 +1,8 @@
 import * as React from "react"
 import Link from "next/link"
 import { useState } from "react"
-import "./Logo"
 import { useRouter } from "next/router"
+import ClassesDropdown from "../components/ClassesDropdown"
 
 export default function Header({
   noBanner,
@@ -100,10 +100,12 @@ export default function Header({
               href="/"
               className="flex-shrink-0 flex items-center text-xl font-bold space-x-2">
 
-              <div className="h-9 w-9">
-                {/* <img src="../../public/favicon.ico" alt="Logo" className="h-full w-full object-cover" /> */}
-                <link rel='logo' href='/public/favicon.ico' />
-              </div>
+              <img
+                className="h-8 w-8"
+                src="/favicon.ico"
+                alt="IDE innit logo"
+              />
+
               <span
                 className={`font-bold text-xl ${dark ? "text-white" : ""}`}
               >
@@ -127,6 +129,7 @@ export default function Header({
                 {/*        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>*/}
                 {/*</svg>*/}
               </a>
+
 
               {internalLinks.map(link => (
                 (<Link
@@ -196,19 +199,20 @@ export default function Header({
       <div className={(isOpen ? "block" : "hidden") + " md:hidden"}>
         <div className="pt-2 pb-3 space-y-1">
           <a
-            href="https://ideinnit.tech/"
+            href="https://ideinnit-ide.vercel.app"
             target="_blank"
             className={blockLinkClasses}
           >
-            IDE innit
+            IDE
           </a>
-
           {internalLinks.map(link => (
             (<Link
               href={link.url}
               key={link.url}
               className={
-                link.url
+                link.url === router.pathname
+                  ? activeBlockLinkClasses
+                  : blockLinkClasses
               }>
 
               {link.label}

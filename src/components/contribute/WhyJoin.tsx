@@ -32,28 +32,28 @@ export default function WhyJoin() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Teaching Resources (Early Access)
+                  Personalized Resources (Early Access)
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  We provide slideshows and problemsets for USACO Bronze and
-                  Silver, based off of the{" "}
+                  We provide professionally curated notes and problemsets for USACO and codeforces problems
+                  , based off of the{" "}
                   <a
-                    href="https://usaco.guide/"
+                    href="https://youkn0wwho.academy/topic-list"
                     target="_blank"
                     className="underline"
                   >
-                    USACO Guide
+                    Stanford Algortihms Course and CS50
                   </a>
-                  . Each division is designed to be completed in roughly one
-                  semester.
+                  . Each division is designed to be completed in roughly one to three months, with a new topic released each
+                  week.
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://docs.google.com/document/d/1RWYE61nrC5gcBvHjLTaJc9h4NeiXB-d2YX3xq0tmgt8/edit"
+                    href="https://youkn0wwho.academy/topic-list"
                     target="_blank"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
                   >
-                    View Curriculum Syllabus
+                    View Curriculum Topics
                   </a>
                 </div>
               </div>
