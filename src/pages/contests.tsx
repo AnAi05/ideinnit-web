@@ -37,12 +37,13 @@ export default function Contests() {
             </h1>
             <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
               Join high-quality programming contests hosted by CS enthusiasts, for
-              CS enthusiasts. The questions in these contests are hand-picked by our mentors.
+              CS enthusiasts. The questions are hand-picked by our open-source community.
             </p>
-
-            <div className="items-center text-center max-w-md mt-12 mt-10 mx-auto sm:max-w-none sm:flex sm:justify-center">
+            
+            <div className="flex flex-col items-center text-center max-w-md mt-12 mx-auto sm:max-w-none">
               <EmailForm listName={"contests"} mailjetListName={"contests"} />
             </div>
+
           </div>
         </div>
       </div>
@@ -167,7 +168,7 @@ export default function Contests() {
                     target="_blank"
                     className="font-semibold text-black underline"
                   >
-                    https://discord.gg/panchayat-719504928703250533
+                    https://discord.gg/ideinnit
                   </a>
                 </p>
               </div>

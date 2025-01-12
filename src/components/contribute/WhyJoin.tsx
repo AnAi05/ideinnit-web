@@ -63,11 +63,11 @@ export default function WhyJoin() {
             <a
               className="block px-4 sm:px-6 lg:px-0 lg:m-0 lg:relative lg:h-full"
               target="_blank"
-              href="https://docs.google.com/presentation/d/1n2aXzhSfgbo8GoVpeyeygw1Zi7DATfy-C2wO-O5QElA/present#slide=id.g78b50dee42_0_129"
+              href="https://the-algorithms.com/"
             >
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="/prefix_sum_slides.png"
+                src="/banner.png"
                 alt="Example Slideshow"
               />
             </a>
