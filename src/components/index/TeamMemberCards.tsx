@@ -67,12 +67,12 @@ export const MemberCardSmall = ({ member }: { member: Member }) => (
       >
         <div className="flex flex-col gap-2 px-5 pb-5">
           <SocialLinks person={member} center />
-          <div className="flex gap-1 flex-wrap">
+          <div className="flex gap-1 flex-wrap justify-center">
             {member.titles.map(title => (
               <span
                 key={title}
                 className="text-sm whitespace-nowrap inline-flex 
-                  items-center px-2.5 py-0.5 rounded-full bg-gray-200 font-medium"
+                items-center px-2.5 py-0.5 rounded-full bg-gray-200 font-medium"
               >
                 {title}
               </span>
@@ -104,12 +104,12 @@ export const MemberCardLarge = ({ member }: { member: Member }) => {
         <div className="flex-1 min-w-0 space-y-3">
           <span className="" aria-hidden="true"></span>
           <p className="text-xl font-medium">{member.name}</p>
-          <div className="-mx-0.5">
+          <div className="flex gap-1 flex-wrap justify-center">
             {member.titles.map(title => {
               return title !== "" ? (
                 <span
                   key={title}
-                  className="text-sm whitespace-nowrap mx-0.5 my-0.5 inline-flex items-center px-2.5 py-0.5 rounded-full bg-gray-200 font-medium"
+                  className="text-sm whitespace-nowrap inline-flex items-center px-2.5 py-0.5 rounded-full bg-gray-200 font-medium"
                 >
                   {title}
                 </span>
