@@ -61,7 +61,7 @@ export default function WhyJoin() {
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <a
-              className="block px-4 sm:px-6 lg:px-0 lg:m-0 lg:relative lg:h-full"
+              className="block px-4 sm:px-6 lg:px-0 lg:m-0 lg:relative lg:h-4/5 lg:mt-14"
               target="_blank"
               href="https://the-algorithms.com/"
             >
@@ -92,21 +92,20 @@ export default function WhyJoin() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Club Learning Management System (Early Access)
+                  Club Learning System
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Use a Learning Management System that's fully integrated with
-                  the USACO Guide to post announcements and assign problems to
-                  club members. Includes a live leaderboard to encourage
-                  competition!
+                  You can make a club on our platform and invite your friends to join. You can track your progress on a particular issue and
+                  see how you compare to other clubs. We'll provide you with resources and a codebase to help you
+                  get a headstart.
                 </p>
                 <div className="mt-6">
                   <a
-                    href="https://usaco.guide/groups/join?key=ixvVQZVoaT8oZy7GB8ea"
+                    href="mailto:lajatm9@gmail.com"
                     target="_blank"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-gray-600 to-indigo-600 hover:from-gray-700 hover:to-indigo-700"
                   >
-                    Try it out
+                    Reach out to us for more info!
                   </a>
                 </div>
               </div>
