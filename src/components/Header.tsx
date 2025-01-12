@@ -1,7 +1,7 @@
 import * as React from "react"
 import Link from "next/link"
 import { useState } from "react"
-import Logo from "./Logo"
+import "./Logo"
 import { useRouter } from "next/router"
 
 export default function Header({
@@ -101,7 +101,8 @@ export default function Header({
               className="flex-shrink-0 flex items-center text-xl font-bold space-x-2">
 
               <div className="h-9 w-9">
-                <Logo />
+                {/* <img src="../../public/favicon.ico" alt="Logo" className="h-full w-full object-cover" /> */}
+                <link rel='logo' href='/public/favicon.ico' />
               </div>
               <span
                 className={`font-bold text-xl ${dark ? "text-white" : ""}`}

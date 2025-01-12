@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Head from "next/head"
+import icon from "../../public/favicon.ico"
 
 function SEO({ description, children, image: metaImage, title, pathname }) {
   const site = {
