@@ -75,7 +75,7 @@ export default function WhyJoin() {
         </div>
       </div>
       <div className="mt-24">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-20">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
               <div>
@@ -112,7 +112,7 @@ export default function WhyJoin() {
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-            <div className="block px-4 sm:px-6 lg:px-0 lg:m-0 lg:relative lg:h-full">
+            <div className="block px-4 sm:px-6 lg:px-0 lg:m-0 lg:relative lg:h-4/6 lg:mt-24">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/groups.png"
